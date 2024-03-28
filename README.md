@@ -1,5 +1,5 @@
 **clinet_http**
-This code runs on the client side and sends a HTTP request to the server, the HTTP request also containes a token which the server reads.
+This code runs on the client side and sends a HTTP request to the server, the HTTP post request also containes a token which the server reads.
 
 **server.c**
 It creates a web server on the given ip. When a client wants to connect to the server, it has to provide the token, which will be checked, and the connection is upgraded to websocket connection only if the token is correct.
